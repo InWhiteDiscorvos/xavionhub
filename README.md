@@ -3,5 +3,5 @@ local check = "https://legazyxhub.000webhostapp.com/check.php?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/InWhiteDiscorvos/xavionhub/main/README.md"))()
 else
-game.Players.LocalPlayer:Kick("Invalid Key! Please Rejoin And Try Again.")
+game.Players.LocalPlayer:Kick("คีย์มันไม่ถูกไอควาน จะรันหาพ่องมึงอ่ะ")
 end
